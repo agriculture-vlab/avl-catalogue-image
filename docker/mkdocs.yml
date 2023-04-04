@@ -1,0 +1,18 @@
+site_name: "AVL Catalogue"
+site_url: "http://127.0.0.1:9090/"
+copyright: Copyright (c) 2023 by the AVL Team
+theme: readthedocs
+
+docs_dir: /root/catalogue_markdown
+site_dir: /root/catalogue_html
+nav:
+  - Home: index.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+      baselevel: 2
+  - attr_list
